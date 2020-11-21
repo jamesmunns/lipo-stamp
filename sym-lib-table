@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name lipo-stamp-proto-rescue)(type Legacy)(uri ${KIPRJMOD}/lipo-stamp-proto-rescue.lib)(options "")(descr ""))
-  (lib (name Everything)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Everything.lib)(options "")(descr ""))
-)
