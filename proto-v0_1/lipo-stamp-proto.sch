@@ -1993,19 +1993,19 @@ F 3 "~" H 5000 3250 50  0001 C CNN
 	1    5000 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Jumper_NC_Small JP11
-U 1 1 604FB90A
-P 5000 3500
-F 0 "JP11" V 5046 3453 50  0000 R CNN
-F 1 "Jumper_NC_Small" V 4955 3453 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5000 3500 50  0001 C CNN
-F 3 "~" H 5000 3500 50  0001 C CNN
-	1    5000 3500
-	0    -1   -1   0   
-$EndComp
 Text Label 5000 2800 1    50   ~ 0
 +BATT
 Text Label 5000 3600 3    50   ~ 0
 -BATT
+$Comp
+L Device:Jumper_NO_Small JP11
+U 1 1 6068AF95
+P 5000 3500
+F 0 "JP11" V 4954 3548 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 5045 3548 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5000 3500 50  0001 C CNN
+F 3 "~" H 5000 3500 50  0001 C CNN
+	1    5000 3500
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
