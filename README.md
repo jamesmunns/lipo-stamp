@@ -6,5 +6,7 @@ This is intended to be a small sized, general purpose LiPo charge controller wit
 
 The first version is a larger scale test board.
 
+The [schematic](./assets/proto-schematic.pdf) is also available as PDF.
+
 ![test board](./assets/lipo-stamp-proto.png)
 
