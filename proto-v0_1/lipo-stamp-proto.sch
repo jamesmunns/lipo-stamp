@@ -376,7 +376,7 @@ Text Label 4350 6750 2    50   ~ 0
 3v3_EN
 Text Label 7250 6100 0    50   ~ 0
 +3v3
-Text Notes 3400 5850 0    50   ~ 0
+Text Notes 4100 5950 0    50   ~ 0
 +3v3 Regulator
 Text Notes 650  2150 0    50   ~ 0
 Charge Controller
@@ -413,8 +413,6 @@ Text Label 3250 7100 0    50   ~ 0
 VMAX
 Text Label 3750 4400 0    50   ~ 0
 STAT
-Text Notes 7900 1250 0    50   ~ 0
-TODO: Polyfuse(s)?
 Wire Notes Line
 	11000 2700 11000 5250
 Wire Notes Line
@@ -506,8 +504,6 @@ F 3 "~" H 950 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4350 750  4650 750 
-Text Label 5750 750  2    50   ~ 0
--BATT
 Text Label 5750 850  2    50   ~ 0
 +BATT
 Text Label 5750 1150 2    50   ~ 0
@@ -868,64 +864,62 @@ Wire Notes Line
 	600  2050 600  5200
 Wire Notes Line
 	600  2050 4100 2050
-Text Label 6600 750  2    50   ~ 0
--BATT
-Text Label 6600 850  2    50   ~ 0
+Text Label 6700 850  2    50   ~ 0
 +BATT
-Text Label 6600 1150 2    50   ~ 0
+Text Label 6700 1150 2    50   ~ 0
 +CHARGE
-Text Label 6600 1450 2    50   ~ 0
+Text Label 6700 1450 2    50   ~ 0
 VMAX
-Text Label 6600 1550 2    50   ~ 0
+Text Label 6700 1550 2    50   ~ 0
 VBAT
-Text Label 6600 1650 2    50   ~ 0
+Text Label 6700 1650 2    50   ~ 0
 +3v3
-Text Label 6600 1750 2    50   ~ 0
+Text Label 6700 1750 2    50   ~ 0
 3v3_EN
-Text Label 6600 1850 2    50   ~ 0
+Text Label 6700 1850 2    50   ~ 0
 STAT
 $Comp
 L power:GND #PWR0101
 U 1 1 5FD9FCCB
-P 6600 1050
-F 0 "#PWR0101" H 6600 800 50  0001 C CNN
-F 1 "GND" V 6605 922 50  0000 R CNN
-F 2 "" H 6600 1050 50  0001 C CNN
-F 3 "" H 6600 1050 50  0001 C CNN
-	1    6600 1050
+P 6700 1050
+F 0 "#PWR0101" H 6700 800 50  0001 C CNN
+F 1 "GND" V 6705 922 50  0000 R CNN
+F 2 "" H 6700 1050 50  0001 C CNN
+F 3 "" H 6700 1050 50  0001 C CNN
+	1    6700 1050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6600 750  6750 750 
+	6700 750  6850 750 
 Wire Wire Line
-	6600 850  6750 850 
+	6700 850  6850 850 
 Wire Wire Line
-	6600 1050 6750 1050
+	6700 1050 6850 1050
 Wire Wire Line
-	6600 1150 6750 1150
+	6700 1150 6850 1150
 Wire Wire Line
-	6600 1450 6750 1450
+	6700 1450 6850 1450
 Wire Wire Line
-	6600 1550 6750 1550
+	6700 1550 6850 1550
 Wire Wire Line
-	6600 1650 6750 1650
+	6700 1650 6850 1650
 Wire Wire Line
-	6600 1750 6750 1750
+	6700 1750 6850 1750
 Wire Wire Line
-	6600 1850 6750 1850
+	6700 1850 6850 1850
 $Comp
 L power:GND #PWR0102
 U 1 1 5FD9FCDA
-P 6600 1950
-F 0 "#PWR0102" H 6600 1700 50  0001 C CNN
-F 1 "GND" V 6605 1822 50  0000 R CNN
-F 2 "" H 6600 1950 50  0001 C CNN
-F 3 "" H 6600 1950 50  0001 C CNN
-	1    6600 1950
+P 6700 1950
+F 0 "#PWR0102" H 6700 1700 50  0001 C CNN
+F 1 "GND" V 6705 1822 50  0000 R CNN
+F 2 "" H 6700 1950 50  0001 C CNN
+F 3 "" H 6700 1950 50  0001 C CNN
+	1    6700 1950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6600 1950 6750 1950
+	6700 1950 6850 1950
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5FDB8806
@@ -1039,111 +1033,111 @@ $EndComp
 $Comp
 L Connector:TestPoint TP11
 U 1 1 5FDD9EEF
-P 6750 750
-F 0 "TP11" V 6750 938 50  0000 L CNN
-F 1 "TestPoint" V 6795 938 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6950 750 50  0001 C CNN
-F 3 "~" H 6950 750 50  0001 C CNN
-	1    6750 750 
+P 6850 750
+F 0 "TP11" V 6850 938 50  0000 L CNN
+F 1 "TestPoint" V 6895 938 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 7050 750 50  0001 C CNN
+F 3 "~" H 7050 750 50  0001 C CNN
+	1    6850 750 
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP12
 U 1 1 5FDD9EF5
-P 6750 850
-F 0 "TP12" V 6750 1038 50  0000 L CNN
-F 1 "TestPoint" V 6795 1038 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6950 850 50  0001 C CNN
-F 3 "~" H 6950 850 50  0001 C CNN
-	1    6750 850 
+P 6850 850
+F 0 "TP12" V 6850 1038 50  0000 L CNN
+F 1 "TestPoint" V 6895 1038 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 7050 850 50  0001 C CNN
+F 3 "~" H 7050 850 50  0001 C CNN
+	1    6850 850 
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP13
 U 1 1 5FDD9EFB
-P 6750 1050
-F 0 "TP13" V 6750 1238 50  0000 L CNN
-F 1 "TestPoint" V 6795 1238 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6950 1050 50  0001 C CNN
-F 3 "~" H 6950 1050 50  0001 C CNN
-	1    6750 1050
+P 6850 1050
+F 0 "TP13" V 6850 1238 50  0000 L CNN
+F 1 "TestPoint" V 6895 1238 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 7050 1050 50  0001 C CNN
+F 3 "~" H 7050 1050 50  0001 C CNN
+	1    6850 1050
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP14
 U 1 1 5FDD9F01
-P 6750 1150
-F 0 "TP14" V 6750 1338 50  0000 L CNN
-F 1 "TestPoint" V 6795 1338 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6950 1150 50  0001 C CNN
-F 3 "~" H 6950 1150 50  0001 C CNN
-	1    6750 1150
+P 6850 1150
+F 0 "TP14" V 6850 1338 50  0000 L CNN
+F 1 "TestPoint" V 6895 1338 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 7050 1150 50  0001 C CNN
+F 3 "~" H 7050 1150 50  0001 C CNN
+	1    6850 1150
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP15
 U 1 1 5FDD9F07
-P 6750 1450
-F 0 "TP15" V 6750 1638 50  0000 L CNN
-F 1 "TestPoint" V 6795 1638 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6950 1450 50  0001 C CNN
-F 3 "~" H 6950 1450 50  0001 C CNN
-	1    6750 1450
+P 6850 1450
+F 0 "TP15" V 6850 1638 50  0000 L CNN
+F 1 "TestPoint" V 6895 1638 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 7050 1450 50  0001 C CNN
+F 3 "~" H 7050 1450 50  0001 C CNN
+	1    6850 1450
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP16
 U 1 1 5FDD9F0D
-P 6750 1550
-F 0 "TP16" V 6750 1738 50  0000 L CNN
-F 1 "TestPoint" V 6795 1738 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6950 1550 50  0001 C CNN
-F 3 "~" H 6950 1550 50  0001 C CNN
-	1    6750 1550
+P 6850 1550
+F 0 "TP16" V 6850 1738 50  0000 L CNN
+F 1 "TestPoint" V 6895 1738 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 7050 1550 50  0001 C CNN
+F 3 "~" H 7050 1550 50  0001 C CNN
+	1    6850 1550
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP17
 U 1 1 5FDD9F13
-P 6750 1650
-F 0 "TP17" V 6750 1838 50  0000 L CNN
-F 1 "TestPoint" V 6795 1838 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6950 1650 50  0001 C CNN
-F 3 "~" H 6950 1650 50  0001 C CNN
-	1    6750 1650
+P 6850 1650
+F 0 "TP17" V 6850 1838 50  0000 L CNN
+F 1 "TestPoint" V 6895 1838 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 7050 1650 50  0001 C CNN
+F 3 "~" H 7050 1650 50  0001 C CNN
+	1    6850 1650
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP18
 U 1 1 5FDD9F19
-P 6750 1750
-F 0 "TP18" V 6750 1938 50  0000 L CNN
-F 1 "TestPoint" V 6795 1938 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6950 1750 50  0001 C CNN
-F 3 "~" H 6950 1750 50  0001 C CNN
-	1    6750 1750
+P 6850 1750
+F 0 "TP18" V 6850 1938 50  0000 L CNN
+F 1 "TestPoint" V 6895 1938 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 7050 1750 50  0001 C CNN
+F 3 "~" H 7050 1750 50  0001 C CNN
+	1    6850 1750
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP19
 U 1 1 5FDD9F1F
-P 6750 1850
-F 0 "TP19" V 6750 2038 50  0000 L CNN
-F 1 "TestPoint" V 6795 2038 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6950 1850 50  0001 C CNN
-F 3 "~" H 6950 1850 50  0001 C CNN
-	1    6750 1850
+P 6850 1850
+F 0 "TP19" V 6850 2038 50  0000 L CNN
+F 1 "TestPoint" V 6895 2038 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 7050 1850 50  0001 C CNN
+F 3 "~" H 7050 1850 50  0001 C CNN
+	1    6850 1850
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP20
 U 1 1 5FDD9F25
-P 6750 1950
-F 0 "TP20" V 6750 2138 50  0000 L CNN
-F 1 "TestPoint" V 6795 2138 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6950 1950 50  0001 C CNN
-F 3 "~" H 6950 1950 50  0001 C CNN
-	1    6750 1950
+P 6850 1950
+F 0 "TP20" V 6850 2138 50  0000 L CNN
+F 1 "TestPoint" V 6895 2138 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 7050 1950 50  0001 C CNN
+F 3 "~" H 7050 1950 50  0001 C CNN
+	1    6850 1950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1761,7 +1755,7 @@ L Device:Jumper_NC_Small JP12
 U 1 1 603C256D
 P 5300 3500
 F 0 "JP12" V 5346 3453 50  0000 R CNN
-F 1 "Jumper_NC_Small" V 5255 3453 50  0000 R CNN
+F 1 "Jumper_NC_Small" V 5255 3453 50  0001 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5300 3500 50  0001 C CNN
 F 3 "~" H 5300 3500 50  0001 C CNN
 	1    5300 3500
@@ -1794,7 +1788,7 @@ L Device:Jumper_NC_Small JP13
 U 1 1 603CB0FB
 P 5600 3500
 F 0 "JP13" V 5646 3453 50  0000 R CNN
-F 1 "Jumper_NC_Small" V 5555 3453 50  0000 R CNN
+F 1 "Jumper_NC_Small" V 5555 3453 50  0001 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5600 3500 50  0001 C CNN
 F 3 "~" H 5600 3500 50  0001 C CNN
 	1    5600 3500
@@ -1838,7 +1832,7 @@ L Device:Jumper_NC_Small JP14
 U 1 1 603D380D
 P 5900 3500
 F 0 "JP14" V 5946 3453 50  0000 R CNN
-F 1 "Jumper_NC_Small" V 5855 3453 50  0000 R CNN
+F 1 "Jumper_NC_Small" V 5855 3453 50  0001 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5900 3500 50  0001 C CNN
 F 3 "~" H 5900 3500 50  0001 C CNN
 	1    5900 3500
@@ -1882,7 +1876,7 @@ L Device:Jumper_NC_Small JP15
 U 1 1 603E730B
 P 6200 3500
 F 0 "JP15" V 6246 3453 50  0000 R CNN
-F 1 "Jumper_NC_Small" V 6155 3453 50  0000 R CNN
+F 1 "Jumper_NC_Small" V 6155 3453 50  0001 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6200 3500 50  0001 C CNN
 F 3 "~" H 6200 3500 50  0001 C CNN
 	1    6200 3500
@@ -1926,7 +1920,7 @@ L Device:Jumper_NC_Small JP16
 U 1 1 603EFF6F
 P 6500 3500
 F 0 "JP16" V 6546 3453 50  0000 R CNN
-F 1 "Jumper_NC_Small" V 6455 3453 50  0000 R CNN
+F 1 "Jumper_NC_Small" V 6455 3453 50  0001 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6500 3500 50  0001 C CNN
 F 3 "~" H 6500 3500 50  0001 C CNN
 	1    6500 3500
@@ -2002,10 +1996,31 @@ L Device:Jumper_NO_Small JP11
 U 1 1 6068AF95
 P 5000 3500
 F 0 "JP11" V 4954 3548 50  0000 L CNN
-F 1 "Jumper_NO_Small" V 5045 3548 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 5045 3548 50  0001 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5000 3500 50  0001 C CNN
 F 3 "~" H 5000 3500 50  0001 C CNN
 	1    5000 3500
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:Polyfuse F1
+U 1 1 5FBD4CE7
+P 8300 1550
+F 0 "F1" V 8075 1550 50  0000 C CNN
+F 1 "Polyfuse" V 8166 1550 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Castellated" H 8350 1350 50  0001 L CNN
+F 3 "~" H 8300 1550 50  0001 C CNN
+	1    8300 1550
+	0    1    1    0   
+$EndComp
+Text Label 8450 1550 0    50   ~ 0
+-BATT
+Text Label 8150 1550 2    50   ~ 0
+-BATT_RAW
+Text Label 5750 750  2    50   ~ 0
+-BATT_RAW
+Text Label 6700 750  2    50   ~ 0
+-BATT_RAW
+Text Notes 8050 1700 0    50   ~ 0
+2A Polyfuse
 $EndSCHEMATC
