@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.8"
     },
-    "CreationDate":  "2020-11-29T14:14:59+01:00"
+    "CreationDate":  "2020-11-29T14:50:24+01:00"
   },
   "GeneralSpecs":
   {
@@ -99,6 +99,16 @@
     {
       "Path":  "lipo-stamp-proto-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "lipo-stamp-proto-F_Fab.gbr",
+      "FileFunction":  "AssemblyDrawing,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "lipo-stamp-proto-B_Fab.gbr",
+      "FileFunction":  "AssemblyDrawing,Bot",
       "FilePolarity":  "Positive"
     }
   ],

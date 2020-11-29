@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,5.1.8*%
-%TF.CreationDate,2020-11-29T14:14:59+01:00*%
+%TF.CreationDate,2020-11-29T14:50:24+01:00*%
 %TF.ProjectId,lipo-stamp-proto,6c69706f-2d73-4746-916d-702d70726f74,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L3,Inr*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.8) date 2020-11-29 14:14:59*
+G04 Created by KiCad (PCBNEW 5.1.8) date 2020-11-29 14:50:24*
 %MOMM*%
 %LPD*%
 G01*
@@ -377,7 +377,7 @@ X113919000Y-54610000D03*
 D12*
 %TO.N,Net-(R6-Pad1)*%
 X118872000Y-52832000D03*
-X122809000Y-52514500D03*
+X123571000Y-52959000D03*
 D10*
 %TO.N,/3v3_EN*%
 X119507000Y-64516000D03*

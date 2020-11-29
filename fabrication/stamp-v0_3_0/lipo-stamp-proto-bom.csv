@@ -1,19 +1,18 @@
-Reference, Quantity, Value, Footprint, Datasheet
-C1 C2 ,2,"10uF","Capacitor_SMD:C_0805_2012Metric","~"
-C3 C4 ,2,"1uF","Capacitor_SMD:C_0603_1608Metric","~"
-C5 ,1,"100nF","Capacitor_SMD:C_0603_1608Metric","~"
-D1 ,1,"GREEN","LED_SMD:LED_0603_1608Metric","~"
-D2 ,1,"RED","LED_SMD:LED_0603_1608Metric","~"
-D3 D4 ,2,"D_Schottky","Diode_SMD:D_SOD-123","~"
-F1 ,1,"2A Polyfuse","Fuse:Fuse_1206_3216Metric_Castellated","~"
-IC1 ,1,"TP4056","Everything:SOP-8",""
-Q1 ,1,"SI2301CDS-T1-GE3","Package_TO_SOT_SMD:SOT-23","~"
-R1 ,1,"2.2K","Resistor_SMD:R_0402_1005Metric","~"
-R2 R3 ,2,"1K","Resistor_SMD:R_0402_1005Metric","~"
-R4 ,1,"100K","Resistor_SMD:R_0402_1005Metric","~"
-R5 ,1,"330","Resistor_SMD:R_0402_1005Metric","~"
-R6 ,1,"2.7kOhm","Resistor_SMD:R_0402_1005Metric","~"
-TP1 TP2 TP3 TP4 TP5 TP6 TP7 TP8 TP9 TP10 ,10,"TestPoint","Everything:castellated-2-pin","~"
-U1 ,1,"AP2112K-3.3","Package_TO_SOT_SMD:SOT-23-5","https://www.diodes.com/assets/Datasheets/AP2112.pdf"
-U2 ,1,"AP9101CK6","Package_TO_SOT_SMD:SOT-23-6","https://www.diodes.com/assets/Datasheets/AP9101C.pdf"
-U3 ,1,"FS8205","Package_TO_SOT_SMD:SOT-23-6",""
+ Value,Designator, Footprint,LCSC Part Number,
+10uF,"C1,C2 ",C0805,C15850,Basic
+1uF,"C3,C4 ",C0603,C15849,Basic
+100nF,C5 ,C0603,C14663,Basic
+GREEN,D1 ,LED_0603,C72043,Basic
+RED,D2 ,LED_0603,C2286,Basic
+D_Schottky,"D3,D4 ",SOD-123,C8598,Basic
+2A Polyfuse,F1 ,F1206,C70085,Extended
+TP4056,IC1 ,SOP-8_3.9x4.9x1.27P,C16581,Basic
+SI2301CDS-T1-GE3,Q1 ,SOT-23-3,C10487,Basic
+2.2K,R1 ,R0402,C25879,Basic
+1K,"R2,R3 ",R0402,C11702,Basic
+100K,R4 ,R0402,C25741,Basic
+330,R5 ,R0402,C25104,Basic
+2.7kOhm,R6 ,R0603,C13167,Basic
+AP2112K-3.3,U1 ,SOT-25-5,C51118,Extended
+AP9101CK6,U2 ,SOT-23-6L,C151339,Extended
+FS8205,U3 ,SOT-23-6L,C32254,Basic
