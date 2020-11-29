@@ -1,0 +1,260 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 7700 2800 0    50   ~ 0
++BATT
+Text Label 7350 2250 0    50   ~ 0
++CHARGE
+Text Notes 7350 7500 0    50   ~ 0
+Charge Controller
+Text Label 5050 3850 0    50   ~ 0
+~CHRG
+$Comp
+L Everything:TP4056 IC?
+U 1 1 5FC5BC22
+P 5800 3100
+F 0 "IC?" H 5800 3667 50  0000 C CNN
+F 1 "TP4056" H 5800 3576 50  0000 C CNN
+F 2 "Everything:SOP-8" H 5800 3100 50  0001 L BNN
+F 3 "" H 5800 3100 50  0001 L BNN
+	1    5800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FC5BC28
+P 6700 2250
+F 0 "R?" V 6600 2250 50  0000 C CNN
+F 1 "0.4" V 6700 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6630 2250 50  0001 C CNN
+F 3 "~" H 6700 2250 50  0001 C CNN
+	1    6700 2250
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	6450 2350 6950 2350
+Wire Notes Line
+	6950 2350 6950 2100
+Wire Notes Line
+	6950 2100 6450 2100
+Wire Notes Line
+	6450 2100 6450 2350
+Wire Wire Line
+	6550 2250 5200 2250
+Wire Wire Line
+	5200 2250 5200 2800
+Wire Wire Line
+	5200 2800 5200 2900
+Connection ~ 5200 2800
+Connection ~ 5200 2250
+$Comp
+L power:GND #PWR?
+U 1 1 5FC5BC37
+P 3950 3200
+F 0 "#PWR?" H 3950 2950 50  0001 C CNN
+F 1 "GND" H 3955 3027 50  0000 C CNN
+F 2 "" H 3950 3200 50  0001 C CNN
+F 3 "" H 3950 3200 50  0001 C CNN
+	1    3950 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2250 4150 2450
+Wire Wire Line
+	4150 2250 4450 2250
+$Comp
+L Device:R R?
+U 1 1 5FC5BC3F
+P 4800 2700
+F 0 "R?" H 4870 2746 50  0000 L CNN
+F 1 "R" H 4870 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4730 2700 50  0001 C CNN
+F 3 "~" H 4800 2700 50  0001 C CNN
+	1    4800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FC5BC45
+P 4450 2700
+F 0 "R?" H 4520 2746 50  0000 L CNN
+F 1 "R" H 4520 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4380 2700 50  0001 C CNN
+F 3 "~" H 4450 2700 50  0001 C CNN
+	1    4450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FC5BC4B
+P 4450 2400
+F 0 "D?" V 4489 2282 50  0000 R CNN
+F 1 "LED" V 4398 2282 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4450 2400 50  0001 C CNN
+F 3 "~" H 4450 2400 50  0001 C CNN
+	1    4450 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FC5BC51
+P 4800 2400
+F 0 "D?" V 4839 2282 50  0000 R CNN
+F 1 "LED" V 4748 2282 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4800 2400 50  0001 C CNN
+F 3 "~" H 4800 2400 50  0001 C CNN
+	1    4800 2400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4450 2250
+Wire Wire Line
+	4450 2250 4800 2250
+Connection ~ 4800 2250
+Wire Wire Line
+	4800 2250 5200 2250
+Wire Wire Line
+	4800 2850 4800 3100
+Wire Wire Line
+	4800 3100 5200 3100
+Wire Wire Line
+	4450 2850 4450 3200
+Wire Wire Line
+	4450 3200 5200 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5FC5BC5F
+P 5800 4400
+F 0 "#PWR?" H 5800 4150 50  0001 C CNN
+F 1 "GND" H 5805 4227 50  0000 C CNN
+F 2 "" H 5800 4400 50  0001 C CNN
+F 3 "" H 5800 4400 50  0001 C CNN
+	1    5800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FC5BC65
+P 4150 2600
+F 0 "C?" H 4200 2700 50  0000 L CNN
+F 1 "10uF" H 4200 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4188 2450 50  0001 C CNN
+F 3 "~" H 4150 2600 50  0001 C CNN
+	1    4150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FC5BC6C
+P 6900 2950
+F 0 "C?" H 7015 2996 50  0000 L CNN
+F 1 "10uF" H 7015 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6938 2800 50  0001 C CNN
+F 3 "~" H 6900 2950 50  0001 C CNN
+	1    6900 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2800 6900 2800
+Connection ~ 6900 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5FC5BC74
+P 6900 3100
+F 0 "#PWR?" H 6900 2850 50  0001 C CNN
+F 1 "GND" H 6905 2927 50  0000 C CNN
+F 2 "" H 6900 3100 50  0001 C CNN
+F 3 "" H 6900 3100 50  0001 C CNN
+	1    6900 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3700 5800 4400
+Wire Wire Line
+	6400 3800 6400 3200
+Connection ~ 6900 3100
+Wire Wire Line
+	4800 3100 4800 3850
+Connection ~ 4800 3100
+Wire Wire Line
+	3950 3050 3950 3200
+Wire Wire Line
+	4150 2750 4150 3050
+Wire Wire Line
+	4150 3050 3950 3050
+Wire Wire Line
+	6400 3100 6900 3100
+Wire Wire Line
+	6850 2250 7350 2250
+Wire Wire Line
+	6900 2800 7700 2800
+Wire Wire Line
+	4800 3850 5050 3850
+Text HLabel 1200 1500 0    50   Input ~ 0
+GND
+Text HLabel 1200 1000 0    50   Output ~ 0
+~CHRG
+Text HLabel 1200 1100 0    50   Output ~ 0
+~STDBY
+Text HLabel 1200 1200 0    50   Input ~ 0
++CHARGE
+Text HLabel 1200 1300 0    50   Input ~ 0
++BATT
+Text HLabel 1200 1400 0    50   Input ~ 0
+PROG
+$Comp
+L power:GND #PWR?
+U 1 1 5FC63996
+P 1450 1500
+F 0 "#PWR?" H 1450 1250 50  0001 C CNN
+F 1 "GND" H 1455 1327 50  0000 C CNN
+F 2 "" H 1450 1500 50  0001 C CNN
+F 3 "" H 1450 1500 50  0001 C CNN
+	1    1450 1500
+	1    0    0    -1  
+$EndComp
+Text Label 1450 1400 0    50   ~ 0
+PROG
+Text Label 1450 1300 0    50   ~ 0
++BATT
+Text Label 1450 1200 0    50   ~ 0
++CHARGE
+Text Label 1450 1100 0    50   ~ 0
+~STDBY
+Text Label 1450 1000 0    50   ~ 0
+~CHRG
+Wire Wire Line
+	1200 1000 1450 1000
+Wire Wire Line
+	1200 1100 1450 1100
+Wire Wire Line
+	1200 1200 1450 1200
+Wire Wire Line
+	1200 1300 1450 1300
+Wire Wire Line
+	1200 1400 1450 1400
+Wire Wire Line
+	1200 1500 1450 1500
+Text Label 5050 3950 0    50   ~ 0
+~STDBY
+Wire Wire Line
+	4450 3200 4450 3950
+Wire Wire Line
+	4450 3950 5050 3950
+Connection ~ 4450 3200
+Text Label 6850 3800 0    50   ~ 0
+PROG
+Wire Wire Line
+	6400 3800 6850 3800
+$EndSCHEMATC
