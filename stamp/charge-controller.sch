@@ -240,7 +240,7 @@ P 6800 2250
 AR Path="/5FC721ED/5FC3EFB8" Ref="D?"  Part="1" 
 AR Path="/5FC467D5/5FC3EFB8" Ref="D3"  Part="1" 
 F 0 "D3" H 6800 2033 50  0000 C CNN
-F 1 "D_Schottky" H 6800 2124 50  0000 C CNN
+F 1 "B5819W" H 6800 2124 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 6800 2250 50  0001 C CNN
 F 3 "~" H 6800 2250 50  0001 C CNN
 	1    6800 2250
@@ -252,7 +252,7 @@ Wire Wire Line
 	6650 2250 5200 2250
 Connection ~ 5200 2250
 Text Notes 6250 2000 0    50   ~ 0
-Schottky used as a voltage dropper to\nimprove efficiency of TP4056. B5817W\ndiode has a 0.2-0.4v forward drop\nat 0.0 to 0.5A current
+Schottky used as a voltage dropper to\nimprove efficiency of TP4056. B5819W\ndiode has a 0.2-0.4v forward drop\nat 0.0 to 0.5A current
 Text Notes 3600 2150 0    50   ~ 0
 D1: Green\nVf: 2.7-3.7v\n112-285mcd @ 20mA\n5mA: 260ohms\nFinal Value: 1K
 Text Notes 4750 2150 0    50   ~ 0
