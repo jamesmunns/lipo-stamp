@@ -13,402 +13,447 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4350 750  0    50   Input ~ 0
--BATT
-Text HLabel 4350 850  0    50   Input ~ 0
+Text Label 3200 800  0    50   ~ 0
 +BATT
-Text HLabel 4350 1350 0    50   Input ~ 0
-GND
-Text HLabel 4350 1550 0    50   Output ~ 0
-VBAT_OUT
-Text HLabel 4350 1650 0    50   Output ~ 0
-3V3_OUT
-Text HLabel 4350 1750 0    50   Input ~ 0
-3V3_REG_EN
-Text HLabel 4350 1850 0    50   Output ~ 0
-STAT_OUT
-Text HLabel 4350 1050 0    50   Input ~ 0
--CHARGE
-Text HLabel 4350 1150 0    50   Input ~ 0
+Text Label 3200 1100 0    50   ~ 0
 +CHARGE
-Text HLabel 4350 1450 0    50   Output ~ 0
-VMAX_OUT
-Wire Notes Line
-	4400 650  4400 1950
-Wire Notes Line
-	4350 1400 2150 1400
-Wire Notes Line
-	2150 1500 4350 1500
-Wire Notes Line
-	4350 1600 2150 1600
-Wire Notes Line
-	4350 1700 2150 1700
-Wire Notes Line
-	4350 1800 2150 1800
-Wire Notes Line
-	4350 1100 2150 1100
-Wire Notes Line
-	4350 800  2150 800 
-Wire Notes Line
-	3750 1950 3750 650 
-Text Notes 2150 800  0    50   ~ 0
-Negative Battery Terminal
-Text Notes 2150 950  0    50   ~ 0
-Postive Battery Terminal
-Text Notes 2150 1100 0    50   ~ 0
-Negative USB Supply
-Text Notes 2150 1250 0    50   ~ 0
-Positive USB Supply
-Text Notes 2150 1400 0    50   ~ 0
-Logical GND
-Text Notes 2150 1600 0    50   ~ 0
-Positive Battery, Source Limited
-Text Notes 2150 1700 0    50   ~ 0
-+3v3 Regulated Output
-Text Notes 2150 1800 0    50   ~ 0
-+3v3 Regulation EN (disable low)
-Text Notes 2150 1900 0    50   ~ 0
-Charge Status Out
-Text Notes 2150 1500 0    50   ~ 0
-max(+BATT, +CHARGE)
-Wire Notes Line
-	600  650  600  1950
-Wire Notes Line
-	600  650  4400 650 
-Wire Notes Line
-	600  1950 4400 1950
-Wire Notes Line
-	1400 650  1400 1950
-Wire Notes Line
-	2050 800  650  800 
-Wire Notes Line
-	600  950  4400 950 
-Wire Notes Line
-	2100 650  2100 1950
-Wire Notes Line
-	2050 1100 650  1100
-Wire Notes Line
-	600  1250 4400 1250
-Wire Notes Line
-	2050 1400 650  1400
-Wire Notes Line
-	2050 1500 650  1500
-Wire Notes Line
-	2050 1600 650  1600
-Wire Notes Line
-	2050 1700 650  1700
-Wire Notes Line
-	2050 1800 650  1800
-Text Notes 1450 1500 0    50   ~ 0
-+2v5 ..= +5v5
-Text Notes 1450 1700 0    50   ~ 0
-0v0 OR +3v3
-Text Notes 1450 1250 0    50   ~ 0
-0v0 OR +5v5
-Text Notes 1450 950  0    50   ~ 0
-+2v5 ..= +4v2
-Text Notes 1450 650  0    50   ~ 0
-Voltage In/Out
-Text Notes 700  650  0    50   ~ 0
-Current In/Out
-Text Notes 950  950  0    50   ~ 0
-2A
-Text Notes 700  1250 0    50   ~ 0
-500mA ..= 1A
-Text Notes 700  1500 0    50   ~ 0
-500mA ..= 2A
-Text Notes 850  1700 0    50   ~ 0
-500mA
-Text Label 4650 750  0    50   ~ 0
--BATT
-Text Label 4650 850  0    50   ~ 0
-+BATT
-Text Label 4650 1150 0    50   ~ 0
-+CHARGE
-Text Label 4650 1450 0    50   ~ 0
+Text Label 3200 1500 0    50   ~ 0
 VMAX
-Text Label 4650 1550 0    50   ~ 0
+Text Label 3200 1600 0    50   ~ 0
 VBAT
-Text Label 4650 1650 0    50   ~ 0
+Text Label 3200 1700 0    50   ~ 0
 +3v3
-Text Label 4650 1750 0    50   ~ 0
+Text Label 3200 1300 0    50   ~ 0
 3v3_EN
-Text Label 4650 1850 0    50   ~ 0
-STAT
-Wire Wire Line
-	4650 850  4500 850 
-Wire Wire Line
-	4350 1150 4650 1150
-Wire Wire Line
-	4350 1450 4650 1450
-Wire Wire Line
-	4350 1550 4500 1550
-Wire Wire Line
-	4350 1650 4650 1650
-Wire Wire Line
-	4350 1750 4650 1750
-Wire Wire Line
-	4350 1850 4650 1850
-$Comp
-L power:GND #PWR0116
-U 1 1 5F9762EE
-P 5250 1350
-F 0 "#PWR0116" H 5250 1100 50  0001 C CNN
-F 1 "GND" H 5255 1177 50  0000 C CNN
-F 2 "" H 5250 1350 50  0001 C CNN
-F 3 "" H 5250 1350 50  0001 C CNN
-	1    5250 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 1350 5250 1350
-Wire Wire Line
-	5250 1050 5250 1350
-Wire Wire Line
-	4350 1050 5250 1050
-Connection ~ 5250 1350
-Wire Wire Line
-	4350 750  4650 750 
-Text Label 5750 850  2    50   ~ 0
-+BATT
-Text Label 5750 1150 2    50   ~ 0
-+CHARGE
-Text Label 5750 1450 2    50   ~ 0
-VMAX
-Text Label 5750 1550 2    50   ~ 0
-VBAT
-Text Label 5750 1650 2    50   ~ 0
-+3v3
-Text Label 5750 1750 2    50   ~ 0
-3v3_EN
-Text Label 5750 1850 2    50   ~ 0
+Text Label 3200 1900 0    50   ~ 0
 STAT
 $Comp
-L power:GND #PWR0119
+L power:GND #PWR02
 U 1 1 5FBD6FB0
-P 5750 1050
-F 0 "#PWR0119" H 5750 800 50  0001 C CNN
-F 1 "GND" V 5755 922 50  0000 R CNN
-F 2 "" H 5750 1050 50  0001 C CNN
-F 3 "" H 5750 1050 50  0001 C CNN
-	1    5750 1050
-	0    1    1    0   
+P 3200 1000
+F 0 "#PWR02" H 3200 750 50  0001 C CNN
+F 1 "GND" V 3205 872 50  0000 R CNN
+F 2 "" H 3200 1000 50  0001 C CNN
+F 3 "" H 3200 1000 50  0001 C CNN
+	1    3200 1000
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	5750 750  5900 750 
+	3200 700  3050 700 
 Wire Wire Line
-	5750 850  5900 850 
+	3200 800  3100 800 
 Wire Wire Line
-	5750 1050 5900 1050
+	3200 1000 3050 1000
 Wire Wire Line
-	5750 1150 5900 1150
+	3200 1100 3050 1100
 Wire Wire Line
-	5750 1450 5900 1450
+	3200 1500 3050 1500
 Wire Wire Line
-	5750 1550 5900 1550
+	3200 1600 3100 1600
 Wire Wire Line
-	5750 1650 5900 1650
+	3200 1700 3050 1700
 Wire Wire Line
-	5750 1750 5900 1750
+	3200 1300 3050 1300
 Wire Wire Line
-	5750 1850 5900 1850
+	3200 1900 3050 1900
 $Comp
-L power:GND #PWR0120
+L power:GND #PWR03
 U 1 1 5FBED118
-P 5750 1950
-F 0 "#PWR0120" H 5750 1700 50  0001 C CNN
-F 1 "GND" V 5755 1822 50  0000 R CNN
-F 2 "" H 5750 1950 50  0001 C CNN
-F 3 "" H 5750 1950 50  0001 C CNN
-	1    5750 1950
-	0    1    1    0   
+P 3200 2000
+F 0 "#PWR03" H 3200 1750 50  0001 C CNN
+F 1 "GND" V 3205 1872 50  0000 R CNN
+F 2 "" H 3200 2000 50  0001 C CNN
+F 3 "" H 3200 2000 50  0001 C CNN
+	1    3200 2000
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	5750 1950 5900 1950
-Wire Wire Line
-	4500 850  4500 1550
-Connection ~ 4500 850 
-Wire Wire Line
-	4500 850  4350 850 
-Connection ~ 4500 1550
-Wire Wire Line
-	4500 1550 4650 1550
+	3200 2000 3050 2000
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5FDB8806
-P 5900 750
-F 0 "TP1" V 5900 938 50  0000 L CNN
-F 1 "TestPoint" V 5945 938 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6100 750 50  0001 C CNN
-F 3 "~" H 6100 750 50  0001 C CNN
-	1    5900 750 
-	0    1    1    0   
+P 3050 700
+F 0 "TP1" V 3050 888 50  0000 L CNN
+F 1 "TestPoint" V 3095 888 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 3250 700 50  0001 C CNN
+F 3 "~" H 3250 700 50  0001 C CNN
+	1    3050 700 
+	0    -1   1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5FDBD051
-P 5900 850
-F 0 "TP2" V 5900 1038 50  0000 L CNN
-F 1 "TestPoint" V 5945 1038 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6100 850 50  0001 C CNN
-F 3 "~" H 6100 850 50  0001 C CNN
-	1    5900 850 
-	0    1    1    0   
+P 3050 800
+F 0 "TP2" V 3050 988 50  0000 L CNN
+F 1 "TestPoint" V 3095 988 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 3250 800 50  0001 C CNN
+F 3 "~" H 3250 800 50  0001 C CNN
+	1    3050 800 
+	0    -1   1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5FDC5EF5
-P 5900 1050
-F 0 "TP3" V 5900 1238 50  0000 L CNN
-F 1 "TestPoint" V 5945 1238 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6100 1050 50  0001 C CNN
-F 3 "~" H 6100 1050 50  0001 C CNN
-	1    5900 1050
-	0    1    1    0   
+P 3050 1000
+F 0 "TP3" V 3050 1188 50  0000 L CNN
+F 1 "TestPoint" V 3095 1188 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 3250 1000 50  0001 C CNN
+F 3 "~" H 3250 1000 50  0001 C CNN
+	1    3050 1000
+	0    -1   1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5FDC5EFB
-P 5900 1150
-F 0 "TP4" V 5900 1338 50  0000 L CNN
-F 1 "TestPoint" V 5945 1338 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6100 1150 50  0001 C CNN
-F 3 "~" H 6100 1150 50  0001 C CNN
-	1    5900 1150
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP5
-U 1 1 5FDCA795
-P 5900 1450
-F 0 "TP5" V 5900 1638 50  0000 L CNN
-F 1 "TestPoint" V 5945 1638 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6100 1450 50  0001 C CNN
-F 3 "~" H 6100 1450 50  0001 C CNN
-	1    5900 1450
-	0    1    1    0   
+P 3050 1100
+F 0 "TP4" V 3050 1288 50  0000 L CNN
+F 1 "TestPoint" V 3095 1288 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 3250 1100 50  0001 C CNN
+F 3 "~" H 3250 1100 50  0001 C CNN
+	1    3050 1100
+	0    -1   1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP6
-U 1 1 5FDCA79B
-P 5900 1550
-F 0 "TP6" V 5900 1738 50  0000 L CNN
-F 1 "TestPoint" V 5945 1738 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6100 1550 50  0001 C CNN
-F 3 "~" H 6100 1550 50  0001 C CNN
-	1    5900 1550
-	0    1    1    0   
+U 1 1 5FDCA795
+P 3050 1500
+F 0 "TP6" V 3050 1688 50  0000 L CNN
+F 1 "TestPoint" V 3095 1688 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 3250 1500 50  0001 C CNN
+F 3 "~" H 3250 1500 50  0001 C CNN
+	1    3050 1500
+	0    -1   1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP7
-U 1 1 5FDCEEC3
-P 5900 1650
-F 0 "TP7" V 5900 1838 50  0000 L CNN
-F 1 "TestPoint" V 5945 1838 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6100 1650 50  0001 C CNN
-F 3 "~" H 6100 1650 50  0001 C CNN
-	1    5900 1650
-	0    1    1    0   
+U 1 1 5FDCA79B
+P 3050 1600
+F 0 "TP7" V 3050 1788 50  0000 L CNN
+F 1 "TestPoint" V 3095 1788 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 3250 1600 50  0001 C CNN
+F 3 "~" H 3250 1600 50  0001 C CNN
+	1    3050 1600
+	0    -1   1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP8
+U 1 1 5FDCEEC3
+P 3050 1700
+F 0 "TP8" V 3050 1888 50  0000 L CNN
+F 1 "TestPoint" V 3095 1888 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 3250 1700 50  0001 C CNN
+F 3 "~" H 3250 1700 50  0001 C CNN
+	1    3050 1700
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
 U 1 1 5FDCEEC9
-P 5900 1750
-F 0 "TP8" V 5900 1938 50  0000 L CNN
-F 1 "TestPoint" V 5945 1938 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6100 1750 50  0001 C CNN
-F 3 "~" H 6100 1750 50  0001 C CNN
-	1    5900 1750
-	0    1    1    0   
+P 3050 1300
+F 0 "TP5" V 3050 1488 50  0000 L CNN
+F 1 "TestPoint" V 3095 1488 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 3250 1300 50  0001 C CNN
+F 3 "~" H 3250 1300 50  0001 C CNN
+	1    3050 1300
+	0    -1   1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP9
 U 1 1 5FDD3731
-P 5900 1850
-F 0 "TP9" V 5900 2038 50  0000 L CNN
-F 1 "TestPoint" V 5945 2038 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6100 1850 50  0001 C CNN
-F 3 "~" H 6100 1850 50  0001 C CNN
-	1    5900 1850
-	0    1    1    0   
+P 3050 1900
+F 0 "TP9" V 3050 2088 50  0000 L CNN
+F 1 "TestPoint" V 3095 2088 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 3250 1900 50  0001 C CNN
+F 3 "~" H 3250 1900 50  0001 C CNN
+	1    3050 1900
+	0    -1   1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP10
 U 1 1 5FDD3737
-P 5900 1950
-F 0 "TP10" V 5900 2138 50  0000 L CNN
-F 1 "TestPoint" V 5945 2138 50  0001 L CNN
-F 2 "Everything:castellated-2-pin" H 6100 1950 50  0001 C CNN
-F 3 "~" H 6100 1950 50  0001 C CNN
-	1    5900 1950
-	0    1    1    0   
+P 3050 2000
+F 0 "TP10" V 3050 2188 50  0000 L CNN
+F 1 "TestPoint" V 3095 2188 50  0001 L CNN
+F 2 "Everything:castellated-2-pin" H 3250 2000 50  0001 C CNN
+F 3 "~" H 3250 2000 50  0001 C CNN
+	1    3050 2000
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:Polyfuse F1
 U 1 1 5FBD4CE7
-P 8750 2000
-F 0 "F1" V 8525 2000 50  0000 C CNN
-F 1 "Polyfuse" V 8616 2000 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Castellated" H 8800 1800 50  0001 L CNN
-F 3 "~" H 8750 2000 50  0001 C CNN
-	1    8750 2000
+P 1550 4000
+F 0 "F1" V 1325 4000 50  0000 C CNN
+F 1 "2A Polyfuse" V 1416 4000 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Castellated" H 1600 3800 50  0001 L CNN
+F 3 "~" H 1550 4000 50  0001 C CNN
+	1    1550 4000
 	0    1    1    0   
 $EndComp
-Text Label 8900 2000 0    50   ~ 0
+Text Label 1700 4000 0    50   ~ 0
 -BATT
-Text Label 8600 2000 2    50   ~ 0
+Text Label 1400 4000 2    50   ~ 0
 -BATT_RAW
-Text Label 5750 750  2    50   ~ 0
--BATT_RAW
-Text Notes 8500 2150 0    50   ~ 0
-2A Polyfuse
-Wire Notes Line
-	8100 1650 8100 2250
-Wire Notes Line
-	8100 2250 9250 2250
-Wire Notes Line
-	9250 2250 9250 1650
-Wire Notes Line
-	9250 1650 8100 1650
 $Sheet
-S 1500 3250 800  500 
+S 4900 3700 800  500 
 U 5FC467D5
 F0 "charge-controller" 50
 F1 "charge-controller.sch" 50
-F2 "GND" I L 1500 3650 50 
-F3 "~CHRG" O R 2300 3350 50 
-F4 "~STDBY" O R 2300 3450 50 
-F5 "+CHARGE" I L 1500 3350 50 
-F6 "+BATT" I L 1500 3450 50 
-F7 "PROG" I L 1500 3550 50 
+F2 "GND" I L 4900 4100 50 
+F3 "~CHRG" O R 5700 3800 50 
+F4 "~STDBY" O R 5700 3900 50 
+F5 "+CHARGE" I L 4900 3800 50 
+F6 "+BATT" I L 4900 3900 50 
+F7 "PROG" I L 4900 4000 50 
 $EndSheet
 $Sheet
-S 3600 3600 750  400 
+S 6850 3750 750  400 
 U 5FC721ED
 F0 "power-path" 50
 F1 "power-path.sch" 50
-F2 "+BATT" I L 3600 3700 50 
-F3 "+CHARGE" I L 3600 3800 50 
-F4 "VMAX" O R 4350 3700 50 
-F5 "GND" I L 3600 3900 50 
+F2 "+BATT" I L 6850 3850 50 
+F3 "+CHARGE" I L 6850 3950 50 
+F4 "VMAX" O R 7600 3850 50 
+F5 "GND" I L 6850 4050 50 
 $EndSheet
 $Sheet
-S 1850 5300 700  400 
+S 8500 3750 700  400 
 U 5FC8E9A5
 F0 "3v3-regulator" 50
 F1 "3v3-regulator.sch" 50
-F2 "VMAX" I L 1850 5400 50 
-F3 "3v3_EN" I L 1850 5500 50 
-F4 "+3v3" O R 2550 5400 50 
-F5 "GND" I L 1850 5600 50 
+F2 "VMAX" I L 8500 3850 50 
+F3 "3v3_EN" I L 8500 3950 50 
+F4 "+3v3" O R 9200 3850 50 
+F5 "GND" I L 8500 4050 50 
 $EndSheet
 $Sheet
-S 7350 3550 650  300 
+S 2850 3750 650  300 
 U 5FC95DBB
 F0 "battery-protection" 50
 F1 "battery-protection.sch" 50
-F2 "+BATT" I L 7350 3650 50 
-F3 "-BATT" I L 7350 3750 50 
-F4 "GND" I R 8000 3650 50 
+F2 "+BATT" I L 2850 3850 50 
+F3 "-BATT" I L 2850 3950 50 
+F4 "GND" I R 3500 3850 50 
 $EndSheet
+Text Label 3200 700  0    50   ~ 0
+-BATT_RAW
+Wire Notes Line
+	3850 1200 500  1200
+Wire Notes Line
+	3850 900  500  900 
+Wire Notes Line
+	3850 1800 500  1800
+Wire Notes Line
+	2650 2050 2650 550 
+Text Label 4900 3800 2    50   ~ 0
++CHARGE
+Text Label 4900 3900 2    50   ~ 0
++BATT
+$Comp
+L power:GND #PWR01
+U 1 1 5FCB7F58
+P 4650 4400
+F 0 "#PWR01" H 4650 4150 50  0001 C CNN
+F 1 "GND" H 4655 4227 50  0000 C CNN
+F 2 "" H 4650 4400 50  0001 C CNN
+F 3 "" H 4650 4400 50  0001 C CNN
+	1    4650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4100 4800 4100
+Text Label 5700 3800 0    50   ~ 0
+STAT
+NoConn ~ 5700 3900
+$Comp
+L Device:R R1
+U 1 1 5FCB916D
+P 4450 4150
+F 0 "R1" H 4520 4196 50  0000 L CNN
+F 1 "2.2K" H 4520 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4380 4150 50  0001 C CNN
+F 3 "~" H 4450 4150 50  0001 C CNN
+	1    4450 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4000 4450 4000
+Wire Wire Line
+	4800 4350 4650 4350
+Wire Wire Line
+	4650 4350 4650 4400
+Wire Wire Line
+	4800 4100 4800 4350
+Wire Wire Line
+	4450 4300 4450 4350
+Wire Wire Line
+	4450 4350 4650 4350
+Connection ~ 4650 4350
+Text Label 6850 3850 2    50   ~ 0
++BATT
+Text Label 6850 3950 2    50   ~ 0
++CHARGE
+Text Label 7600 3850 0    50   ~ 0
+VMAX
+$Comp
+L power:GND #PWR04
+U 1 1 5FCBB255
+P 6750 4150
+F 0 "#PWR04" H 6750 3900 50  0001 C CNN
+F 1 "GND" H 6755 3977 50  0000 C CNN
+F 2 "" H 6750 4150 50  0001 C CNN
+F 3 "" H 6750 4150 50  0001 C CNN
+	1    6750 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4050 6750 4050
+Wire Wire Line
+	6750 4050 6750 4150
+Wire Wire Line
+	3100 1600 3100 800 
+Connection ~ 3100 1600
+Wire Wire Line
+	3100 1600 3050 1600
+Connection ~ 3100 800 
+Wire Wire Line
+	3100 800  3050 800 
+$Comp
+L power:GND #PWR05
+U 1 1 5FCBC00E
+P 3700 3850
+F 0 "#PWR05" H 3700 3600 50  0001 C CNN
+F 1 "GND" H 3705 3677 50  0000 C CNN
+F 2 "" H 3700 3850 50  0001 C CNN
+F 3 "" H 3700 3850 50  0001 C CNN
+	1    3700 3850
+	1    0    0    -1  
+$EndComp
+Text Label 2650 3950 2    50   ~ 0
+-BATT
+Text Label 2650 3850 2    50   ~ 0
++BATT
+Wire Wire Line
+	3500 3850 3700 3850
+Wire Wire Line
+	2850 3850 2650 3850
+Wire Wire Line
+	2650 3950 2850 3950
+Text Notes 5050 4750 2    50   ~ 0
+2.2K is roughly 500mA
+Text Label 8500 3850 2    50   ~ 0
+VMAX
+Text Label 8500 3950 2    50   ~ 0
+3v3_EN
+Text Label 9200 3850 0    50   ~ 0
++3v3
+$Comp
+L power:GND #PWR0112
+U 1 1 5FC51229
+P 8400 4150
+F 0 "#PWR0112" H 8400 3900 50  0001 C CNN
+F 1 "GND" H 8405 3977 50  0000 C CNN
+F 2 "" H 8400 4150 50  0001 C CNN
+F 3 "" H 8400 4150 50  0001 C CNN
+	1    8400 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4050 8400 4050
+Wire Wire Line
+	8400 4050 8400 4150
+Text Notes 1350 1500 0    50   ~ 0
+VMAX: 3.0-4.8v, 500mA max
+Text Notes 1350 1600 0    50   ~ 0
+VBAT: 3.0-4.2v, 2A max
+Text Notes 1350 1700 0    50   ~ 0
++3v3: 3.3v, 100mA max*
+Text Notes 1250 1900 0    50   ~ 0
+Low: Charging, High: Not Charging
+Text Notes 850  1300 0    50   ~ 0
+Low: Disable 3v3 Reg, High: Enable 3v3 Reg
+Text Notes 1600 1100 0    50   ~ 0
+USB/+5v0 Input
+Text Notes 1600 1000 0    50   ~ 0
+USB/GND Input
+Text Notes 1600 800  0    50   ~ 0
+Battery Positive
+Text Notes 1600 700  0    50   ~ 0
+Battery Negative
+Wire Notes Line
+	500  1400 4050 1400
+Wire Notes Line
+	500  550  4050 550 
+Wire Notes Line
+	500  2100 4050 2100
+Text Notes 4000 1100 1    50   ~ 0
+INPUTS
+Text Notes 4000 1900 1    50   ~ 0
+OUTPUTS
+Text Notes 4150 1700 0    50   ~ 0
+Total current for all outputs is 2A when battery powered.\nTotal current for +CHARGE is 1A, 0.5A to charge, 0.5A to VMAX\nALWAYS use GND output, NOT -BATT, to maintain protection
+Text Notes 7400 7500 0    50   ~ 0
+LiPo Stamp v0.3.0
+Text Notes 8150 7650 0    50   ~ 0
+2020-11-29
+Text Notes 2950 2250 0    50   ~ 0
+RED LED
+Text Notes 2950 2350 0    50   ~ 0
+GREEN LED
+Text Notes 1350 2250 0    50   ~ 0
+On: Charging, Off: Not Charging
+Text Notes 1050 2350 0    50   ~ 0
+On: Standby, Off: Charging or no power
+Wire Notes Line
+	500  2400 4050 2400
+Wire Notes Line
+	4050 550  4050 2400
+Wire Notes Line
+	500  550  500  2400
+Wire Notes Line
+	3850 550  3850 2400
+Wire Notes Line
+	2650 2150 2650 2350
+Text Notes 4000 2350 1    50   ~ 0
+LEDs
+Text Notes 1000 5350 0    50   ~ 0
+2A polyfuse disconnects\n-BATT_RAW when total\ncontinuous current is\n>= 2A
+Text Notes 2550 5350 0    50   ~ 0
+Battery Protection will\ndisconnect -BATT from GND\nwhen voltage is too high/low,\notherwise connect -BATT\nto GND (output)
+Text Notes 4650 5350 0    50   ~ 0
+Constant Current Charge\nController with 500mA max\ncharge current
+Text Notes 6600 5350 0    50   ~ 0
+Power path switches VMAX to\n+CHARGE when present,\notherwise +BATT
+Text Notes 8350 5350 0    50   ~ 0
++3v3 Regulator when\n3v3_EN is high, otherwise\ndisabled.\n\n* Regulator supports 600mA\noutput, but we probably don't\nhave thermals for that
+Text Notes 850  2650 0    50   ~ 0
+* See comment on 3v3 reg re: max current\nTBD: Actual max current threshold, right now\n100mA is a conservative guess
+Wire Notes Line
+	750  3250 9800 3250
+Wire Notes Line
+	9800 3250 9800 5400
+Wire Notes Line
+	9800 5400 750  5400
+Wire Notes Line
+	750  3400 9800 3400
+Wire Notes Line
+	8000 3250 8000 5400
+Wire Notes Line
+	6200 3250 6200 5400
+Wire Notes Line
+	4050 3250 4050 5400
+Wire Notes Line
+	2150 3250 2150 5400
+Wire Notes Line
+	750  3250 750  5400
+Text Notes 1050 3350 0    50   ~ 0
+STAGE 1: 2A Polyfuse
+Text Notes 2600 3350 0    50   ~ 0
+STAGE 2: Battery Protection
+Text Notes 4500 3350 0    50   ~ 0
+STAGE 3: Battery Charge Controller
+Text Notes 6550 3350 0    50   ~ 0
+STAGE 4: Power Path Selection
+Text Notes 8400 3350 0    50   ~ 0
+STAGE 5: +3v3 Regulator
 $EndSCHEMATC

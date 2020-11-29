@@ -1,4 +1,4 @@
-update=Sun 29 Nov 2020 03:41:05 AM CET
+update=Sun 29 Nov 2020 08:31:26 AM CET
 version=1
 last_client=kicad
 [general]
@@ -40,10 +40,11 @@ MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.5399999999999999
 TrackWidth1=0.25
 TrackWidth2=0.2
-TrackWidth3=0.635
-TrackWidth4=0.762
-TrackWidth5=1.27
-TrackWidth6=2
+TrackWidth3=0.3175
+TrackWidth4=0.635
+TrackWidth5=0.762
+TrackWidth6=1.27
+TrackWidth7=2
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=0.45
@@ -89,11 +90,11 @@ Type=2
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=1
+Type=2
 Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=1
+Type=2
 Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
@@ -209,7 +210,7 @@ Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
 Name=B.Cu
-Type=0
+Type=2
 Enabled=1
 [pcbnew/Layer.B.Adhes]
 Enabled=1
