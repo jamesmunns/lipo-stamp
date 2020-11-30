@@ -245,8 +245,6 @@ Wire Notes Line
 	3850 1800 500  1800
 Wire Notes Line
 	2650 2050 2650 550 
-Text Label 4900 3800 2    50   ~ 0
-+CHARGE
 Text Label 4900 3900 2    50   ~ 0
 +BATT
 $Comp
@@ -456,4 +454,34 @@ Text Notes 6550 3350 0    50   ~ 0
 STAGE 4: Power Path Selection
 Text Notes 8400 3350 0    50   ~ 0
 STAGE 5: +3v3 Regulator
+$Comp
+L Device:C C?
+U 1 1 5FC542AF
+P 5050 2300
+AR Path="/5FC8E9A5/5FC542AF" Ref="C?"  Part="1" 
+AR Path="/5FC542AF" Ref="C7"  Part="1" 
+F 0 "C7" H 5165 2346 50  0000 L CNN
+F 1 "1uF" H 5165 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 2150 50  0001 C CNN
+F 3 "~" H 5050 2300 50  0001 C CNN
+	1    5050 2300
+	1    0    0    -1  
+$EndComp
+Text Label 4900 3800 2    50   ~ 0
++CHARGE
+Text Label 5050 2150 2    50   ~ 0
++CHARGE
+$Comp
+L power:GND #PWR0113
+U 1 1 5FC5C63A
+P 5050 2450
+F 0 "#PWR0113" H 5050 2200 50  0001 C CNN
+F 1 "GND" H 5055 2277 50  0000 C CNN
+F 2 "" H 5050 2450 50  0001 C CNN
+F 3 "" H 5050 2450 50  0001 C CNN
+	1    5050 2450
+	1    0    0    -1  
+$EndComp
+Text Notes 5400 2350 0    50   ~ 0
+Input filter for noisy switching supplies
 $EndSCHEMATC

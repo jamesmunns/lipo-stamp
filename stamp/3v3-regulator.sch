@@ -93,7 +93,7 @@ Wire Wire Line
 	5700 2850 5600 2850
 Connection ~ 5700 2850
 Wire Wire Line
-	5700 2850 6150 2850
+	5700 2850 6100 2850
 Wire Wire Line
 	4950 2850 4950 3500
 Text HLabel 950  700  0    50   Input ~ 0
@@ -133,4 +133,23 @@ Wire Wire Line
 	3250 2850 4950 2850
 Wire Wire Line
 	3250 2950 5000 2950
+$Comp
+L Device:C C6
+U 1 1 5FC4F6F8
+P 6100 3650
+F 0 "C6" H 6215 3696 50  0000 L CNN
+F 1 "1uF" H 6215 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6138 3500 50  0001 C CNN
+F 3 "~" H 6100 3650 50  0001 C CNN
+	1    6100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3800 6100 3800
+Connection ~ 5700 3800
+Wire Wire Line
+	6100 3500 6100 2850
+Connection ~ 6100 2850
+Wire Wire Line
+	6100 2850 6150 2850
 $EndSCHEMATC
