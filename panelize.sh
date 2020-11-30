@@ -6,7 +6,7 @@ kikit panelize grid \
     --space 3 \
     --gridsize 4 4 \
     --tabwidth 3 \
-    --tabheight 3 
+    --tabheight 3 \
     --htabs 1 \
     --vtabs 2 \
     --mousebites 0.5 1 -0.3175 \
