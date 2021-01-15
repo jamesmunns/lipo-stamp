@@ -1,6 +1,6 @@
 # LiPo Power Stamp
 
-This is intended to be a small sized, general purpose LiPo charge controller with power path and a 3v3 regulator. Currently the targeted size is 0.7" by 0.7", or just under 18mm square. It is intended to be used with 18650 batteries.
+This is intended to be a small sized, general purpose LiPo charge controller with power path and a 3v3 regulator. Currently the targeted size is 0.7" by 0.7", or just under 18mm square. It is intended to be used with 3.7V nominal cells.
 
 ## Features
 
@@ -9,10 +9,10 @@ This is intended to be a small sized, general purpose LiPo charge controller wit
     * Low voltage trickle charging
 * Over/Under-voltage Protection
     * AP9101CK6 + FS8205
-    * Disables battery on over/under charge
+    * Disables cell on over/under charge
 * Power Path
     * Provides power via USB when connected
-    * 500mA max output (USB or Battery)
+    * 500mA max output (USB or Cell)
 * Switchable 3v3 Regulator
     * Default off
     * 100mA+ output
